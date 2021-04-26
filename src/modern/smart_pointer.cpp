@@ -23,7 +23,7 @@ int main(){
         int* e2 = new int(8);
         std::unique_ptr<int> e3 = std::make_unique<int>(9);
         cout<<*e2<<*e3<<endl;
-    }
+    } 
     std::shared_ptr<Entity> e4;
     {
         std::shared_ptr<Entity> e5 = std::make_shared<Entity>(101);

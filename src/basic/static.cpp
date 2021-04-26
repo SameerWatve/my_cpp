@@ -24,12 +24,11 @@ public:
 };
 long Player::count=0;
 int main(){
-    Player::count = 0;
     Player p1;
-    //p1.incr();
+    p1.incr();
     p1.print();
     Player p2;
-    //p2.incr();
+    p2.incr();
     p2.print();
 
 }
