@@ -1,0 +1,35 @@
+{
+    "files.associations": {
+        "pointers": "cpp",
+        "cctype": "cpp",
+        "cmath": "cpp",
+        "ctime": "cpp",
+        "span": "cpp",
+        "shared_mutex": "cpp",
+        "mutex": "cpp",
+        "hash_map": "cpp",
+        "geometry": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "map": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "optional": "cpp",
+        },
+        "clang-tidy.executable": "/usr/bin/clang-tidy",
+        "clang-tidy.buildPath": "build/compile_commands.json",
+        "clang-tidy.checks": [
+            "-*",
+            "boost-*",
+            "clang-analyzer-*",
+            "cppcoreguidelines-*",
+            "hicpp-*",
+            "modernize-*",
+            "performance-*"
+        ],
+        "clang-tidy.lintOnSave": true,
+        "editor.formatOnSave": true,
+        "clang-format.executable": "/usr/bin/clang-format",
+        "clang-format.assumeFilename": "${workspaceRoot}/.clang-format",
+        "python.pythonPath": "/usr/bin/python3"
+}
